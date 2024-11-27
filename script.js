@@ -17,7 +17,7 @@ document.getElementById("button").addEventListener('click', () => {
 
     // Email validation
     if (!email.includes('@')) {
-        alert("Invalid email.");
+        alert("Invalid email..");
         return;
     }
 
