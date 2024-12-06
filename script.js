@@ -5,11 +5,11 @@ document.getElementById("button").addEventListener('click', () => {
 
     // Check if all fields are filled
     if (!name || !email || !phone) {
-        alert("All fields are required. Please fill out every field..");
+        alert("All fields are required. Please fill out every field...");
         return;
     }
 
-    // Name validation
+    // Name validationn
     if (name.length > 25) {
         alert("Name cannot be more than 25 characters.");
         return;
